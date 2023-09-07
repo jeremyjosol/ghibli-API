@@ -15,3 +15,4 @@ export default class StudioGhibli {
     }
   }
 }
+// StudioGhibli.searchGhibli(id); can now be called to handle asynchronous code
