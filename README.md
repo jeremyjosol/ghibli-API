@@ -4,7 +4,9 @@
 _Jeremy Josol_
 
 ## About
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+This application allows users to find information on a Studio Ghibli film based on the selected submission. This project was designed to practice fetching API data using Javascript Promises methodology. 
+
+All credit is due to Ghibli API and all rights are reserved to the respective owners, you may view their public documentation [here](https://ghibliapi.vercel.app/).
 
 ## Technologies Used
 
@@ -16,6 +18,7 @@ _Jeremy Josol_
 * _Javascript_
 * _Node.js v16.13.1_
 * _npm v8.1.2_
+*_Studio Ghibli API v1.0.1_
 
 ### Prerequisuites
 > _Your computer or codespace should use **Node.js version 16** or greater. For more information, see_ [Node.js](https://nodejs.org/en).
@@ -26,7 +29,7 @@ _Jeremy Josol_
     ```
      git clone https://github.com/jeremyjosol/sep62023_ghibliapi
     ```
-  2. After successfully cloning down the repository, navigate to the **'projectname_project'** directory, if the file is located in your desktop, enter the following command:
+  2. After successfully cloning down the repository, navigate to the **'sep62023_ghibliapi'** directory, if the file is located in your desktop, enter the following command:
       ```
        cd sep62023_ghibliapi
 3. Before you can use or deploy the project, make sure to install its dependencies. Run the following command in your terminal:
@@ -67,7 +70,7 @@ You should now be set up to use, develop, and test **Ghibli API**. If you encoun
 
 
 ## Known Bugs
-No major bugs known. Please kindly report any known issues to the repository's creator.
+If further developing and API results do not generate, trash node_modules and package-lock.json and use the command `npm install` and reload the server with `npm run start`.
 
 ## MIT License
 Copyright (c) 2023 Jeremy Josol
