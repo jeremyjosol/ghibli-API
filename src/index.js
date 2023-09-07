@@ -1,7 +1,7 @@
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import StudioGhibli from './ghibli.js'
+import StudioGhibli from './ghibli.js';
 
 function searchGhibli(id) {
   StudioGhibli.searchGhibli(id)
