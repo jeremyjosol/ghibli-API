@@ -1,4 +1,4 @@
-# Project Title
+# Ghibli API
 
 ## Contributors
 _Jeremy Josol_
