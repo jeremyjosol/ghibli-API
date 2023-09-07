@@ -27,7 +27,8 @@ function outputFilm(response) {
 }
 
 function outputError(error) {
-  document.querySelector('#showResponse').innerText = `${error}.`;
+  document.querySelector('#showResponse').innerText = `There was an error accessing the film data for
+  ${error}.`;
 }
 
 function handleFormSubmission(event) {
