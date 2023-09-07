@@ -1,16 +1,17 @@
 export default class StudioGhibli {  
-  static searchGhibli(id) {
-    return fetch(`https://ghibliapi.vercel.app/films/${id}`)
-      .then(function(response) {
-        if (!response.ok) {
-          const errorMessage = `${response.status} ${response.statusText}`;
-          throw new Error(errorMessage);
-        } else {
-          return response.json();
-        }
-      })      
-      .catch(function(error) {
-        return error;
-      });
+  static async searchGhibli(id) {
+    try {
+      const response = await fetch(`https://ghibliapi.vercel.app/films/${id}`);
+      const ghibliResponse = response.json();
+      
+      if (!response.ok) {
+        const errorMessage = `${response.status} ${response.statusText}`;
+        throw new Error(errorMessage);
+      } 
+      
+      return ghibliResponse;
+    } catch(error) {
+      return error;
+    }
   }
 }

@@ -3,15 +3,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 import StudioGhibli from './ghibli.js';
 
-function searchGhibli(id) {
-  StudioGhibli.searchGhibli(id)
-    .then(function(response) {
-      if (response) {
-        outputFilm(response);
-      } else {
-        outputError(response);
-      }
-    });
+async function searchGhibli(id) {
+  const response = await StudioGhibli.searchGhibli(id);
+  if (response) {
+    outputFilm(response);
+  } else {
+    outputError(response);
+  }
 }
 
 // UI Logic

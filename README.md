@@ -22,13 +22,13 @@ _Jeremy Josol_
 
 ## Application Setup
 
-1. Clone the [repository](https://github.com/jeremyjosol/project_name.git) by either copying the link or entering the command in your terminal:
+1. Clone the [repository](https://github.com/jeremyjosol/sep62023_ghibliapi) by either copying the link or entering the command in your terminal:
     ```
-     git clone enter_link_here
+     git clone https://github.com/jeremyjosol/sep62023_ghibliapi
     ```
   2. After successfully cloning down the repository, navigate to the **'projectname_project'** directory, if the file is located in your desktop, enter the following command:
       ```
-       cd projectname_project
+       cd sep62023_ghibliapi
 3. Before you can use or deploy the project, make sure to install its dependencies. Run the following command in your terminal:
 
     `$ npm install`
@@ -53,7 +53,7 @@ _Jeremy Josol_
     
       `$ npm run test`
 
-      > _This will activate the test suites you've configured in your project and provide feedback on whether they have executed successfully._
+      > _This will activate any test suites you've configured in your project and provide feedback on whether they have executed successfully._
         
     - To start the local development server: 
     
@@ -63,7 +63,7 @@ _Jeremy Josol_
 
 
 
-You should now be set up to use, develop, and test **Project Name**. If you encounter any issues or have questions, feel free to reach out or refer to the project's documentation. Alternatively, if you'd like to view the project without setting up a local environment, you can access it on [Github Pages](https://jeremyjosol.github.io/aug252023_project/). 
+You should now be set up to use, develop, and test **Ghibli API**. If you encounter any issues or have questions, feel free to reach out or refer to the project's documentation. Alternatively, if you'd like to view the project without setting up a local environment, you can access it on [Github Pages](https://jeremyjosol.github.io/sep62023_ghibliapi/). 
 
 
 ## Known Bugs
