@@ -18,7 +18,7 @@ All credit is due to Ghibli API and all rights are reserved to the respective ow
 * _Javascript_
 * _Node.js v16.13.1_
 * _npm v8.1.2_
-*_Studio Ghibli API v1.0.1_
+* _Studio Ghibli API v1.0.1_
 
 ### Prerequisuites
 > _Your computer or codespace should use **Node.js version 16** or greater. For more information, see_ [Node.js](https://nodejs.org/en).
