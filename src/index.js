@@ -27,8 +27,7 @@ function outputFilm(response) {
 }
 
 function outputError(error) {
-  document.querySelector('#showResponse').innerText = `There was an error accessing the weather data for
-  ${error}.`;
+  document.querySelector('#showResponse').innerText = `${error}.`;
 }
 
 function handleFormSubmission(event) {
