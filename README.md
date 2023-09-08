@@ -4,9 +4,9 @@
 _Jeremy Josol_
 
 ## About
-This application allows users to find information for a Studio Ghibli film based on the selected user submission. This project was designed to practice fetching API data using Javascript Promises methodology. 
+This application facilitates users in obtaining information about Studio Ghibli films based on their selected submission. It serves as a practical exercise in fetching API data using the JavaScript Promises methodology.
 
-All credit is due to Ghibli API and all rights are reserved to the respective owners, you may view their public documentation [here](https://ghibliapi.vercel.app/).
+Credit for the data is attributed to the [Ghibli API](https://ghibliapi.vercel.app/), with all rights reserved by their respective owners. For further reference, please review their public documentation [here](https://ghibliapi.vercel.app/#section/Getting-Started).
 
 ## Technologies Used
 
@@ -63,7 +63,6 @@ All credit is due to Ghibli API and all rights are reserved to the respective ow
       `$ npm run start` 
 
       > _This will launch a local server for testing and development purposes_.
-
 
 
 You should now be set up to use, develop, and test **Ghibli API**. If you encounter any issues or have questions, feel free to reach out or refer to the project's documentation. Alternatively, if you'd like to view the project without setting up a local environment, you can access it on [Github Pages](https://jeremyjosol.github.io/sep62023_ghibliapi/). 
