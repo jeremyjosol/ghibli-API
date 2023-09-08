@@ -13,6 +13,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
     devServer: {
+      port: 8081,
       contentBase: "./dist",
     },
   devtool: 'eval-source-map',
@@ -23,7 +24,7 @@ module.exports = {
       verbose: true
     }),
     new HtmlWebpackPlugin({
-      title: 'weatherapi',
+      title: 'ghibliapi',
       template: './src/index.html',
       inject: 'body'
     }),
