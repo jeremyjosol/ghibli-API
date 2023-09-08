@@ -4,7 +4,7 @@
 _Jeremy Josol_
 
 ## About
-This application allows users to find information on a Studio Ghibli film based on the selected submission. This project was designed to practice fetching API data using Javascript Promises methodology. 
+This application allows users to find information for a Studio Ghibli film based on the selected user submission. This project was designed to practice fetching API data using Javascript Promises methodology. 
 
 All credit is due to Ghibli API and all rights are reserved to the respective owners, you may view their public documentation [here](https://ghibliapi.vercel.app/).
 
@@ -72,7 +72,7 @@ You should now be set up to use, develop, and test **Ghibli API**. If you encoun
 ## Known Bugs
 If further developing and API results do not generate, trash **node_modules** and **package-lock.json** and use the command `npm install` and reload the server with `npm run start`. 
 
-Known localhost:8081 issues. Updated `webpack.config.js - devServer - port: 8081` 9/7/2023.
+Known localhost:8081 issue. Updated `webpack.config.js - devServer - port: 8081` 9/7/2023.
 
 ## MIT License
 Copyright (c) 2023 Jeremy Josol
