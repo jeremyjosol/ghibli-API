@@ -70,7 +70,9 @@ You should now be set up to use, develop, and test **Ghibli API**. If you encoun
 
 
 ## Known Bugs
-If further developing and API results do not generate, trash node_modules and package-lock.json and use the command `npm install` and reload the server with `npm run start`.
+If further developing and API results do not generate, trash **node_modules** and **package-lock.json** and use the command `npm install` and reload the server with `npm run start`. 
+
+Known localhost:8081 issues. Updated `webpack.config.js - devServer - port: 8081` 9/7/2023.
 
 ## MIT License
 Copyright (c) 2023 Jeremy Josol
